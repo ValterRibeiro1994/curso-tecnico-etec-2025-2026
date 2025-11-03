@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valte\\Desktop\\valter\\exercicios-escola\\TL04_PRL_130825\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D190B174-EA96-4EF1-B380-5F6CCECE45FB}|TL04_PRL_130825\\TL04_PRL_130825.csproj|c:\\users\\valte\\desktop\\valter\\exercicios-escola\\tl04_prl_130825\\tl04_prl_130825\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D190B174-EA96-4EF1-B380-5F6CCECE45FB}|TL04_PRL_130825\\TL04_PRL_130825.csproj|solutionrelative:tl04_prl_130825\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\valte\\Desktop\\valter\\exercicios-escola\\TL04_PRL_130825\\TL04_PRL_130825\\Program.cs",
+              "RelativeDocumentMoniker": "TL04_PRL_130825\\Program.cs",
+              "ToolTip": "C:\\Users\\valte\\Desktop\\valter\\exercicios-escola\\TL04_PRL_130825\\TL04_PRL_130825\\Program.cs",
+              "RelativeToolTip": "TL04_PRL_130825\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T19:07:44.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
