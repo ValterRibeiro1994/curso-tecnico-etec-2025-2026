@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form_aluno.css">
+    <title>Calcular Média do aluno</title>
+</head>
+<body>
+    <form id="CadastroAlunos">
+
+        <fieldset>
+            <legend> Cadastro </legend>
+
+            <label for="matricula">Matricula: </label>
+            <input type="number" name="matricula" id="idmatricula"> <br> <br>
+
+            <label for="aluno">Aluno: </label>
+            <input type="text" name="aluno" id="aluno"> <br> <br>
+
+            <label for="nota1">Nota 1: </label>
+            <input type="number" name="nota1" id="nota1"> <br> <br>
+        
+            <label for="nota2">Nota 2: </label>
+            <input type="number" name="nota2" id="nota2"> <br> <br>
+        
+            <label for="nota3">Nota 3: </label>
+            <input type="number" name="nota3" id="nota3"> <br> <br>
+            
+            <input class="botao" type="button" value="Calcular" onclick="calcular_media()">
+            <input class="botao" type="button" value="Gravar" onclick="funcao_gravar()">
+
+        </fieldset>
+        <br> <p id="responseServer"></p>
+    </form>
+    <script src="js/aluno.js"></script>
+</body>
+</html>

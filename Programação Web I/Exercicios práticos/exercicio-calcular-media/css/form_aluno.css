@@ -1,0 +1,30 @@
+form {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.445), rgba(255, 0, 0, 0.315));
+    width: 350px;
+    height: 300px;
+    justify-items: center;
+    justify-self: center;
+    border-radius: 25px;
+}
+
+label {
+    font-size: larger;
+}
+
+.botao {
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: large;
+    border-radius: 15px;
+    border-color: violet;
+}
+
+form > * {
+    font-weight: bold;
+}
+
+legend {
+    font-size: large;
+}
