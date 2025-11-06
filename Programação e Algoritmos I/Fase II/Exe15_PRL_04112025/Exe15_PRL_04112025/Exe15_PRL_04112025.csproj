@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3EA61CB0-F395-477D-B313-A6CE5501DAA9}</ProjectGuid>
+    <ProjectGuid>{4AEC511C-6B19-4135-902B-B1335D57B9F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exe_PRL_04112025</RootNamespace>
-    <AssemblyName>Exe_PRL_04112025</AssemblyName>
+    <RootNamespace>Exe15_PRL_04112025</RootNamespace>
+    <AssemblyName>Exe15_PRL_04112025</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
