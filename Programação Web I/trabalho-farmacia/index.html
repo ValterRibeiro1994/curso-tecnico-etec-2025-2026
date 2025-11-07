@@ -12,7 +12,7 @@
 
     <!-- Essa primeira parte é o cabeçalho -->
   <!-- Cabeçalho ocupa toda a largura -->
-  <div id="divHeader" class="container-fluid">
+  <div id="divHeader" class="container-fluid p-2">
     <header class="container">
       <div class="row align-items-center">
           <!-- Imagem logo - +farmacia -->
@@ -29,7 +29,7 @@
 
             <!-- Menu -->
             <nav class="col-md-6">
-            <ul class="nav justify-content-end">
+            <ul class="nav">
                 <li class="nav-item"><a class="nav-link text-white" href="#">Início</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="#">Produtos</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="#">Ofertas</a></li>
@@ -42,25 +42,17 @@
   </div>
 
   <!-- Essa div cuida do banner -->
-  <div id="banner" class="container-fluid">
+  <div id="banner" class="container-fluid p-2">
     <img class="img-fluid mx-auto d-block" src="img/banner.png" alt="">
   </div>
 
   <!-- Aqui estou tentando criar os cards para a seção de produtos mais vendidos -->
-  <div id="blocoMain" class="container-fluid">
-    <div class="flex-column">
-        <section>
-            <h2 class="text-center">Produtos mais vendidos</h2>
-            <div class="infoProdutos">
-                <h4>Nome do produto</h4>
-                <img src="" alt="">
-                <h5>Descrição do produto</h5>
-
-            </div>
-        </section>
+  <div id="div-secoes" class="container-fluid p-2">
+    <h2 class="text-center">Produtos mais vendidos</h2>
+    <div id="section-id" class="section container-xl">
     </div>
+    <script src="js/iteracao.js"></script>
   </div>
-
 
 </body>
 </html>
