@@ -2,12 +2,16 @@ body {
     background-image: linear-gradient(75deg, rgba(50, 185, 230, 0.705), rgba(0, 0, 139, 0.678));
 }
 
-body > * {background-color: transparent;}
+body > * {
+    margin: 1% auto;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #banner > img {
-    /* border: solid; */
-    width: 100%;
-    border-radius: 45px;
+    border-radius: 20px;
     max-height: 300px;
+
 }
 
 .section {
@@ -20,9 +24,9 @@ body > * {background-color: transparent;}
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1%;
-    border: solid 1px white;
+    /* border: solid 1px white;
+    box-shadow: 3px 2px rgba(9, 9, 105, 0.384); */
     border-radius: 25px;
-    box-shadow: 4px 4px rgba(9, 9, 105, 0.384);
     justify-content: center;
 }
 
@@ -31,6 +35,7 @@ body > * {background-color: transparent;}
     margin: auto;
     height: 100px;
     width: 100px;
+    max-width: 90%;
 }
 
 .meu-botao {
@@ -53,4 +58,9 @@ body > * {background-color: transparent;}
 .text-link:hover {
     font-size: calc(18px + 15%);
     transition: 350ms;
+}
+
+.sombra-elementos {
+    border: solid 1px lightcyan;
+    box-shadow: 3px 5px rgba(9, 9, 105, 0.384);
 }
