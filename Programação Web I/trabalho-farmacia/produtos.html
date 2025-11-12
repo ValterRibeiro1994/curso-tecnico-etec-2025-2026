@@ -41,17 +41,30 @@
     </header>
   </div>
 
-  <div class="container-fluid sombra-elementos text-white bg-transparent text-center">
+  <!-- Essa div mantem a parte de busca com o banner -->
+  <div class="container-fluid sombra-elementos text-white bg-transparent text-center p-4">
       <!-- Essa div cuida do banner -->
         <form class="mx-auto p-1">
-            <label >Encontre o seu remedio: </label>
-            <input type="text" class="text-white bg-transparent rounded-pill mt-2"> <input class="text-white bg-transparent rounded-pill" type="button" value="pesquisar">
+            <input type="text" class="text-white bg-transparent rounded-pill mt-2 w-75 border-white"> <input class="text-white bg-transparent rounded-pill border-info" type="button" value="pesquisar">
         </form>
 
-    <div id="banner" class="container-fluid p-2">
+    <!-- <div id="banner" class="container-fluid p-2">
         <img class="img-fluid mx-auto d-block sombra-elementos" src="img/remedio.png" alt="" style="max-height: 150px;">
-    </div>
-    a ideia é adicionar todos os produtos em uma oumais seções com lista
+    </div> -->
   </div>
+
+  <!-- Bloco de produtos -->
+  <div id="div-secao-produtos-remedios" class="container-fluid sombra-elementos">
+    <h2 class="display-6 text-center text-white">Remedios</h2>
+    <div class="section container-xl"></div>
+    <script src="js/iteracao.js" onload="testar_funcao_criar_card_produto('div-secao-produtos-remedios')"></script>
+  </div>
+
+  <div id="div-secao-produtos-cosmeticos" class="container-fluid sombra-elementos">
+    <h2 class="display-6 text-center text-white">Remedios</h2>
+    <div class="section container-xl"></div>
+    <script src="js/iteracao.js" onload="testar_funcao_criar_card_produto('div-secao-produtos-cosmeticos')"></script>
+  </div>
+
 </body>
 </html>
