@@ -3,61 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/produtos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/produtos.css">
     <title>Produtos</title>
 </head>
 <body>
      
-    <div id="container-header" class="container-fluid border">
+     
+    <div id="container-header" class="conteiner-fluid">
         <!-- layout interno do cabeçalho -->
-        <header class="container ">
-            <!-- Na primeira linha do container coloco logo, titulo do site e icone de login -->
-            <div class="row align-items-center"><!--row se refere a linhas, eu iniciei uma grid com bootstrap5 -->
-                <div class="col-md-4 text-center"><!-- a classe col se refere a coluna, no caso essa seria a primeira --> 
+        <header class="conteiner ">
+            <!-- Na primeira linha do conteiner coloco logo, titulo do site e icone de login -->
+            <div class="row align-items-center justify-items-center"><!--row se refere a linhas, eu iniciei uma grid com bootstrap5 -->
+                <div class="col-md-11 text-center"><!-- a classe col se refere a coluna, no caso essa seria a primeira --> 
                     
                     <!-- Aqui coloco a imagem dentra coluna -->
                     <figure class="mb-0">
                         <img id="img-banner" src="../img/banner-farmacia.png" alt="banner da farmacia" class="img-fluid" style="height: 80px; width: 100%; cursor: pointer;">
+                        <script src="../js/header.js"></script>
                     </figure>
                 </div>
-                
-                <!-- Na segunda coluna da 1°linha coloco o titulo -->
-                <div class="col-md-5 ">
-                    <h1 class="text-center">Farmacia do Povo</h1>
-                </div>
-                
-                <!-- 
-                    Observe Felipinho que col-md-(x) é o numero de colunas que vai ser ocupada pela div, toda linha criada dessa forma vai sempre
-                    ter 12 colunas, por questão de margens e paddings não quero contar a 12° coluna.
-                    A imagem da farmacia vai ocupar 4 colunas e o titulo 5, e vamos ter 3 colunas vagas (mas é bom evitar usalas :)) 
-                    isso pode ferrar o layout 
+
+                    <!-- Na segunda coluna da 1°linha coloco o titulo -->
+                <!-- <div class="col-md-5 ">
+                <h1 class="text-center"></h1>
+                </div> -->
+
+                    <!-- 
+                        Observe Felipinho que col-md-(x) é o numero de colunas que vai ser ocupada pela div, toda linha criada dessa forma vai sempre
+                        ter 12 colunas, por questão de margens e paddings não quero contar a 12° coluna.
+                        A imagem da farmacia vai ocupar 4 colunas e o titulo 5, e vamos ter 3 colunas vagas (mas é bom evitar usalas :)) 
+                        isso pode ferrar o layout 
                     -->
-                </div>
-                
-                <!-- Na segunda linha do container coloco uma barra de navegação -->
+            </div>
+
+            <!-- Na segunda linha do container coloco uma barra de navegação -->
             <div class="row">
                 <nav class="container ">
                     <ul type="none" class="row m-1">
-                        <li class="col p-1 text-center link-navegacao"><a href="../index.html" class="text-white" style="text-decoration: none;">Página Inicial</a></li>
-                        <li class="col p-1 text-center link-navegacao"><a href="#" class="text-white" style="text-decoration: none;">Produtos</a></li>
-                        <li class="col p-1 text-center link-navegacao"><a href="" class="text-white" style="text-decoration: none;">Contato</a></li>
-                        <li class="col p-1 text-center link-navegacao"><a href="" class="text-white" style="text-decoration: none;">Cadastro</a></li>
-                        <li class="col p-1 text-center link-navegacao"><a href="" class="text-white" style="text-decoration: none;">Login</a></li>
+                        <li class="col p-1 text-center link-navegacao"><a href="../index.html" class="cor-link" style="text-decoration: none;">Página Inicial</a></li>
+                        <li class="col p-1 text-center link-navegacao"><a href="#" class="cor-link" >Produtos</a></li>
+                        <li class="col p-1 text-center link-navegacao"><a href="" class="cor-link" >Contato</a></li>
+                        <li class="col p-1 text-center link-navegacao"><a href="" class="cor-link" >Cadastro</a></li>
+                        <li class="col p-1 text-center link-navegacao"><a href="" class="cor-link" >Login</a></li>
                     </ul>
-                    
+
                     <!-- Felipe aqui usei a classe col vazia porque quero que todos items 'li' da 'ul' 
                     estejam distribuidos de forma igual -->
                 </nav>
             </div>
         </header>
     </div>
-    
-    <div id="container-main">
-        <main class="bg-info border" style="height: 100px;">
-            
+    <div class="container-main container-fluid">
+        <main class="p-1">
+            <div class="row">
+                <!-- Aqui é a lateral da pagina de produtos, uma pequena lista com as categorias -->
+                <aside class="col-11 aside-lateral align-items-center">
+                    <ul type="none" class="row lista-categorias">
+                        <li id="secao-mais-vendido" class="col item-lista text-center">Mais Vendidos</li>
+                        <li id="secao-promocoes" class="col item-lista text-center">Promoção</li>
+                        <li id="secao-farmacia" class="col item-lista text-center">Farmacia</li>
+                        <li id="secao-higiene-pessoal" class="col item-lista text-center">Higiene Pessoal</li>
+                        <li id="secao-suplementos" class="col item-lista text-center">Suplementos</li>
+                    </ul>
+                </aside>
+                
+            </div>
+
+            <div class="row">
+                <section class="container-fluid">
+                    <div class="row">
+                        <!--Usar apenas 5 colunas, ou seja criar apenas 5 cards aqui dentro -->
+                        <div id="card_inicial" class="col">
+                            <h4 class="text-center">Melhores ofertas da semana</h4>
+                            <img src="" alt="" class="img-fluid mx-auto d-block" style="width: 600px; height: 100px;"> <!--Que tal um novo banner ?-->
+                            <div id="lista-cards">
+                                <div id="card01-teste">
+                                    <h5 class="text-center">Dipirona 5m</h5>
+                                    <img src="" alt=""> <!--Adicionar imagem do produto-->
+                                    <p>Produto apenas com receita</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
         </main>
         
     </div>

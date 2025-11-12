@@ -1,0 +1,27 @@
+.list-group-item {
+    background-color: transparent;
+    border-color: rgba(173, 138, 230, 0.473);
+    color: whitesmoke;
+}
+
+.container-main {
+    background-color: rgba(0, 0, 139);
+    margin: auto;
+    padding: 5px;
+    align-content: center;
+    font-size: small;
+    color: whitesmoke;
+}
+
+.item-lista {
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.item-lista:hover {
+    font-size: large;
+    border: solid 1px;
+    text-decoration: underline;
+    /* color: rgba(173, 138, 230, 0.473); */
+    border-color: rgba(173, 138, 230, 0.473);
+}

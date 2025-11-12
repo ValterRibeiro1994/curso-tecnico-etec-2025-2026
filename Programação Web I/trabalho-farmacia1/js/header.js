@@ -4,6 +4,6 @@ const img_banner = document.getElementById("img-banner");
 // adicionar o evento de clique
 img_banner.addEventListener("click", function(event
 ){
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
     alert("Ok");
 })

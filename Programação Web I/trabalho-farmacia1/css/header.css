@@ -4,21 +4,16 @@
     max-height: 15%;
 }
 
-h1 {
-    color: blue;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.link-navegacao:hover {
-    border: solid 1px  rgb(233, 187, 233);
-    border-radius: 35px;
-    color: rgb(233, 187, 233);
+.link-navegacao {
     cursor: pointer;
 }
 .cor-link {
-color: white;
+color: #ffff;
+text-decoration: none;
 }
+
 .cor-link:hover {
-    color: rgb(233, 187, 233);
+    /* color: rgb(87, 9, 212); */
+    text-decoration: underline;
+    font-size: large;
 }
