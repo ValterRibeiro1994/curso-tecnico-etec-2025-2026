@@ -1,0 +1,8 @@
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\obj\Debug\Exe17_PRL_12112025.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\obj\Debug\Exe17_PRL_12112025.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\bin\Debug\Exe17_PRL_12112025.exe.config
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\bin\Debug\Exe17_PRL_12112025.exe
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\bin\Debug\Exe17_PRL_12112025.pdb
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\obj\Debug\Exe17_PRL_12112025.exe
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\obj\Debug\Exe17_PRL_12112025.pdb
+C:\Users\valte\Desktop\valter\repositorios\curso-tecnico-etec-2025-2026\Programação e Algoritmos I\Fase II\Exe17_PRL_12112025\Exe17_PRL_12112025\obj\Debug\Exe17_PRL_12112025.exe.config
