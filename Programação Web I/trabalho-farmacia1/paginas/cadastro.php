@@ -10,7 +10,7 @@
     <title>Cadastro</title>
 </head>
 <body>
-     
+      
     <div id="container-header" class="container-fluid border">
         <!-- layout interno do cabeçalho -->
         <header class="container ">
@@ -57,13 +57,45 @@
     
     <div id="container-main">
         <main class="bg-info border" style="height: 100px;">
-            
-        </main>
-        
-    </div>
-    <!-- Area de scripts -->
+        <form id="formulario_cadastro">
+            <fieldset>
+                <legend>Cadastro de usuário</legend>
 
-    <!-- Esse script cria alguns eventos do header, (até o momento faz a linkagem da imagem com a pagina inicial) -->
-    <script src="../js/header.js"></script>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="id_nome" required> <br><br>
+
+                <label for="ano_nascimento">Ano de Nascimento: </label>
+                <input type="date" name="ano_nascimento" id="id_ano_nascimento" required> <br><br>
+
+                <label for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="id_cpf" required> <br><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="id_email" pattern="@" required> <br><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="text" name="telefone" id="id_telefone" required> <br><br>
+
+                <label for="senha1">Senha: </label>
+                <input type="password" name="senha1" id="id_senha1" required> <br><br>
+
+                <label for="confirmar_senha">Confirmar Senha: </label>
+                <input type="password" name="confirmar_senha" id="id_confirmar_senha" required> <br><br>
+
+                <input type="button" value="Cadastrar" onclick="cadastrar_usuario()">
+            </fieldset>
+            <div id="resposta_formulario">-> </div>                
+        </form>
+    </main>
+    
+</div>
+<!-- Area de scripts -->
+
+<!-- Esse script cria alguns eventos do header, (até o momento faz a linkagem da imagem com a pagina inicial) -->
+<script src="../js/header.js"></script>
+
+<!-- Esse script controla o envio do formulario-->
+<script src="../js/server/cadastro_usuario.js"></script>
+
 </body>
 </html>
